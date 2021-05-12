@@ -1,0 +1,7 @@
+animation{
+  name = "normal",
+  src_image = "maps/LegendOfZelda x2.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 2560, frame_height = 2880, origin_x = 8, origin_y = 13 },
+  },
+}

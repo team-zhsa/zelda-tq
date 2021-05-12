@@ -1,0 +1,16 @@
+quest{
+  solarus_version = "1.6",
+  write_dir = "zeldatq",
+  title = "The Legend of Zelda : Hyrule's Adventure",
+  short_description = "The most exciting adventure game!",
+  long_description = [[
+]],
+  author = "Lucifer, Salade_verte, Linkff, Prince DeDeDe, BP, Vibel, ML_, Jul, Elliot Diamand, ",
+  quest_version = "Pre-Alpha 1.7 \"Dorado Update\"",
+  release_date = "",
+  website = "",
+  normal_quest_size = "256x224",
+  min_quest_size = "256x224",
+  max_quest_size = "256x224",
+}
+
