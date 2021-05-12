@@ -9,8 +9,8 @@ quest{
   quest_version = "Pre-Alpha 1.7 \"Dorado Update\"",
   release_date = "",
   website = "",
-  normal_quest_size = "256x224",
-  min_quest_size = "256x224",
-  max_quest_size = "256x224",
+  normal_quest_size = "256x176",
+  min_quest_size = "256x176",
+  max_quest_size = "256x176",
 }
 

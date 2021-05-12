@@ -109,7 +109,7 @@ local function initialize_game_over_features(game)
             -- No fairy: game over.
             state = "menu"
             sol.audio.play_music("04_game_over")
-            fairy_sprite:set_xy(76, 112)  -- Cursor.
+            fairy_sprite:set_xy(48, 76)  -- Cursor.
             cursor_position = 0
             local death_count = game:get_value("death_count") or 0
             game:set_value("death_count", death_count + 1)
@@ -137,7 +137,7 @@ local function initialize_game_over_features(game)
   end
 
   local black = {0, 0, 0}
-  local red = {224, 32, 32}
+  local red = {255, 64, 61}
 
   function game_over_menu:on_draw(dst_surface)
 
@@ -175,13 +175,13 @@ local function initialize_game_over_features(game)
       sol.audio.play_sound("cursor")
       cursor_position = (cursor_position + 1) % 4
       local fairy_x, fairy_y = fairy_sprite:get_xy()
-      fairy_y = 112 + cursor_position * 16
+      fairy_y = 76 + cursor_position * 16
       fairy_sprite:set_xy(fairy_x, fairy_y)
     elseif command == "up" then
       sol.audio.play_sound("cursor")
       cursor_position = (cursor_position + 3) % 4
       local fairy_x, fairy_y = fairy_sprite:get_xy()
-      fairy_y = 112 + cursor_position * 16
+      fairy_y = 76 + cursor_position * 16
       fairy_sprite:set_xy(fairy_x, fairy_y)
     elseif command == "action" or command == "attack" then
 

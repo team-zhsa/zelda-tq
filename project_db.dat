@@ -57,11 +57,12 @@ map{ id = "misc/shop", description = "Shop" }
 map{ id = "misc/test_arena", description = "Testing Arena" }
 map{ id = "misc/test_ground", description = "Testing Ground" }
 map{ id = "out/a1", description = "A1 (West Hyrule)" }
-map{ id = "out/a2", description = "A2 (Hylia Lake, Water Temple)" }
 map{ id = "out/a3", description = "A3 (Kakariko Village)" }
 map{ id = "out/map_00", description = "00 NW Mountains" }
 map{ id = "out/map_01", description = "01 NW Mountains" }
-map{ id = "out/map_02", description = "02 " }
+map{ id = "out/map_02", description = "02 N Mountains" }
+map{ id = "out/map_03", description = "03 N Mountains" }
+map{ id = "out/map_26", description = "26 Woods of Maze" }
 map{ id = "sanctuaries/shibo_nayru/1f", description = "Shibo'Nayru Sanctuary" }
 map{ id = "trailer/zora", description = "Zora" }
 
@@ -1630,8 +1631,8 @@ file{ path = "maps/inside/houses/kakariko/south_shop.lua", author = "Lucifer", }
 file{ path = "maps/inside/sewers/castle_b2.dat", author = "Lucifer", }
 file{ path = "maps/inside/sewers/castle_b2.lua", author = "Lucifer", }
 file{ path = "maps/out/a1.dat", author = "Lucifer", }
-file{ path = "maps/out/a2.dat", author = "Lucifer", }
 file{ path = "maps/out/a3.dat", author = "Nintendo, Lucifer", }
+file{ path = "maps/out/map_03.dat", author = "Lucifer", }
 file{ path = "maps/sanctuaries/shibo_nayru/1f.dat", author = "Linkff", }
 file{ path = "maps/sanctuaries/shibo_nayru/1f.lua", author = "Linkff", }
 file{ path = "scripts/audio_manager.lua", license = "GPL v3" }

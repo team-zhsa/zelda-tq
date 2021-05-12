@@ -244,7 +244,7 @@ teletransporter{
   y = 0,
   width = 16,
   height = 16,
-  destination_map = "out/a2",
+  destination_map = "out/map_03",
   destination = "from_fortune",
   sprite = "entities/Warps/teletransporter2",
   sound = "warp",

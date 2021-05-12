@@ -1,4 +1,4 @@
--- Lua script of map out/m1 - n2.
+-- Lua script of map out/map_26.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
