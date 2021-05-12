@@ -5,7 +5,7 @@ local timer
 -- Peahat: A flying enemy that follows the hero in the air (and lands periodically).
 
 function enemy:on_created()
-  self:set_life(3); self:set_damage(4)
+  self:set_life(3); self:set_damage(2)
   self:create_sprite("enemies/outside/peahat")
   self:set_size(16, 16); self:set_origin(8, 13)
   self:set_hurt_style("monster")

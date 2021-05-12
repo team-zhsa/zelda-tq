@@ -2868,3 +2868,14 @@ enemy{
   breed = "outside/peahat",
 }
 
+teletransporter{
+  layer = 0,
+  x = 512,
+  y = 0,
+  width = 16,
+  height = 352,
+  transition = "scrolling",
+  destination_map = "out/map_01",
+  destination = "_side",
+}
+

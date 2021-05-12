@@ -61,6 +61,7 @@ map{ id = "out/a2", description = "A2 (Hylia Lake, Water Temple)" }
 map{ id = "out/a3", description = "A3 (Kakariko Village)" }
 map{ id = "out/map_00", description = "00 NW Mountains" }
 map{ id = "out/map_01", description = "01 NW Mountains" }
+map{ id = "out/map_02", description = "02 " }
 map{ id = "sanctuaries/shibo_nayru/1f", description = "Shibo'Nayru Sanctuary" }
 map{ id = "trailer/zora", description = "Zora" }
 
