@@ -187,5 +187,4 @@ function hero_meta.play_ground_effect(hero)
   end
 end
 
-
 return true

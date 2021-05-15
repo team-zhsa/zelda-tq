@@ -1477,6 +1477,13 @@ Vas chercher une
 }
 
 dialog{
+  id = "maps.caves.gambling_caves.welcome",
+  text = [[
+Let's play money making game.
+]],
+}
+
+dialog{
   id = "maps.caves.other_caves.generic_1",
   text = [[
 Salut Hylien !
@@ -1547,6 +1554,16 @@ notre grotte et vas
 voir Dungor, à côté
 de la grotte du chef.
 Il te dira quoi faire
+]],
+}
+
+dialog{
+  id = "maps.caves.shop_caves.welcome",
+  text = [[
+Dans un monde aussi dangereux
+tu pourrais avoir besoin de
+beaucoup de choses.
+Choisis ce que tu aimes.
 ]],
 }
 

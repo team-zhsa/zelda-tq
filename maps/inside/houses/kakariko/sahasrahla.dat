@@ -832,7 +832,7 @@ teletransporter{
   y = 216,
   width = 16,
   height = 16,
-  destination_map = "out/a3",
+  destination_map = "out/map_09",
   destination = "from_sahasrahla",
 }
 
@@ -850,7 +850,7 @@ teletransporter{
   y = 216,
   width = 16,
   height = 16,
-  destination_map = "out/a3",
+  destination_map = "out/map_09",
   destination = "from_sahasrahla_2",
 }
 

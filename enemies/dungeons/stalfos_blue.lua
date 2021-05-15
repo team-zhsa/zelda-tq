@@ -1,9 +1,9 @@
 local enemy = ...
-
+require("enemies/lib/common_actions").learn(enemy)
 -- Skeleton: goes in a random direction.
 
-enemy:set_life(3)
-enemy:set_damage(2)
+enemy:set_life(6)
+enemy:set_damage(4)
 
 local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 
@@ -15,6 +15,20 @@ function enemy:on_restarted()
   m:start(self)
   local direction4 = math.random(4) - 1
   self:go(direction4)
+  enemy:set_hero_weapons_reactions({
+    arrow = 3,
+    boomerang = "immobilized",
+    explosion = "ignored",
+    sword = 1,
+    thrown_item = "protected",
+    fire = "protected",
+    jump_on = "ignored",
+    hammer = "protected",
+    hookshot = "immobilized",
+    magic_powder = "ignored",
+    shield = "protected",
+    thrust = 1
+  })
 end
 
 -- An obstacle is reached: stop for a while, looking to a next direction.

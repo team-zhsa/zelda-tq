@@ -6396,7 +6396,7 @@ teletransporter{
   width = 16,
   height = 480,
   transition = "scrolling",
-  destination_map = "out/a3",
+  destination_map = "out/map_09",
   destination = "_side",
 }
 

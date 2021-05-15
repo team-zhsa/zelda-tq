@@ -69,7 +69,7 @@ function hearts_builder:new(game, config)
     -- If we are in-game, play an animation and a sound if the life is low.
     if game:is_started() then
 
-      if game:get_life() <= game:get_max_life() / 4
+      if game:get_life() <= game:get_max_life() / 2
           and not game:is_suspended() then
         need_rebuild = true
         if hearts.empty_heart_sprite:get_animation() ~= "danger" then
@@ -100,7 +100,7 @@ function hearts_builder:new(game, config)
 
   function hearts:repeat_danger_sound()
 
-    if game:get_life() <= game:get_max_life() / 4 then
+    if game:get_life() <= game:get_max_life() / 2 then
 
       sol.audio.play_sound("danger")
       hearts.danger_sound_timer = sol.timer.start(hearts, 750, function()

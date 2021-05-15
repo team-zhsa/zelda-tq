@@ -3,66 +3,45 @@ properties{
   y = 0,
   width = 768,
   height = 352,
-  min_layer = -2,
+  min_layer = -1,
   max_layer = 2,
   world = "outside_world",
   tileset = "Full Hyrule",
   music = "02_overworld",
 }
 
-custom_entity{
-  layer = -2,
-  x = 8,
-  y = 13,
-  width = 768,
-  height = 352,
-  direction = 2,
-  sprite = "maps/overworld",
-}
-
-teletransporter{
-  layer = -2,
+tile{
+  layer = -1,
   x = -16,
   y = 0,
-  width = 16,
-  height = 352,
-  transition = "scrolling",
-  destination_map = "out/map_01",
-  destination = "_side",
-}
-
-tile{
-  layer = -1,
-  x = 0,
-  y = 0,
-  width = 784,
+  width = 800,
   height = 16,
   pattern = "1577",
 }
 
 tile{
   layer = -1,
-  x = -8,
+  x = -24,
   y = 16,
-  width = 800,
+  width = 816,
   height = 16,
   pattern = "1577",
 }
 
 tile{
   layer = -1,
-  x = 0,
+  x = -16,
   y = 32,
-  width = 784,
+  width = 800,
   height = 16,
   pattern = "1577",
 }
 
 tile{
   layer = -1,
-  x = -8,
+  x = -24,
   y = 48,
-  width = 800,
+  width = 816,
   height = 16,
   pattern = "1577",
 }
@@ -5215,6 +5194,132 @@ tile{
   pattern = "1578",
 }
 
+tile{
+  layer = 0,
+  x = 640,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 552,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
 enemy{
   name = "auto_enemy_3",
   layer = 0,
@@ -5285,23 +5390,6 @@ enemy{
   treasure_name = "random_mountains",
 }
 
-custom_entity{
-  name = "spawner_1",
-  layer = 0,
-  x = 568,
-  y = 13,
-  properties = {
-    {
-      key = "breed",
-      value = "outside/boulder",
-    },
-  },
-  width = 16,
-  height = 16,
-  direction = 0,
-  model = "spawner",
-}
-
 sensor{
   name = "sensor_activate_boulder_1",
   layer = 0,
@@ -5366,7 +5454,7 @@ sensor{
 }
 
 custom_entity{
-  name = "spawner_2",
+  name = "spawner_boulder_1",
   layer = 0,
   x = 120,
   y = 13,
@@ -5383,9 +5471,9 @@ custom_entity{
 }
 
 custom_entity{
-  name = "spawner_3",
+  name = "spawner_boulder_2",
   layer = 0,
-  x = 312,
+  x = 344,
   y = 13,
   properties = {
     {
@@ -5400,7 +5488,24 @@ custom_entity{
 }
 
 custom_entity{
-  name = "spawner_4",
+  name = "spawner_boulder_3",
+  layer = 0,
+  x = 632,
+  y = 21,
+  properties = {
+    {
+      key = "breed",
+      value = "outside/boulder",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+  model = "spawner",
+}
+
+custom_entity{
+  name = "spawner_boulder_4",
   layer = 0,
   x = 488,
   y = 13,
@@ -5414,5 +5519,51 @@ custom_entity{
   height = 16,
   direction = 0,
   model = "spawner",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 352,
+  transition = "scrolling",
+  destination_map = "out/map_01",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 768,
+  y = 0,
+  width = 16,
+  height = 352,
+  transition = "scrolling",
+  destination_map = "out/map_03",
+  destination = "_side",
+}
+
+separator{
+  layer = 0,
+  x = 248,
+  y = 0,
+  width = 16,
+  height = 352,
+}
+
+separator{
+  layer = 0,
+  x = 504,
+  y = 0,
+  width = 16,
+  height = 352,
+}
+
+separator{
+  layer = 0,
+  x = 0,
+  y = 168,
+  width = 768,
+  height = 16,
 }
 

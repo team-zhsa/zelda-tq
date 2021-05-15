@@ -5,7 +5,7 @@
 local enemy = ...
 require("enemies/lib/common_actions").learn(enemy)
 
-local sprite = enemy:create_sprite("enemies/dungeons/" .. enemy:get_breed())
+local sprite = enemy:create_sprite("enemies/dungeons/gel")
 local game = enemy:get_game()
 local map = enemy:get_map()
 local hero = map:get_hero()
@@ -134,7 +134,20 @@ end)
 enemy:register_event("on_restarted", function(enemy)
 
   -- Behavior for each items.
-  enemy:set_hero_weapons_reactions(1, {jump_on = "ignored"})
+  enemy:set_hero_weapons_reactions({
+  	arrow = 1,
+  	boomerang = 1,
+  	explosion = 1,
+  	sword = 1,
+  	thrown_item = 1,
+  	fire = 1,
+  	jump_on = "ignored",
+  	hammer = 1,
+  	hookshot = 1,
+  	magic_powder = 1,
+  	shield = "protected",
+  	thrust = 1
+  })
 
   -- States.
   is_attacking = false

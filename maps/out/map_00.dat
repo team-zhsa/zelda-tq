@@ -3,55 +3,45 @@ properties{
   y = 0,
   width = 512,
   height = 352,
-  min_layer = -2,
+  min_layer = -1,
   max_layer = 2,
   world = "outside_world",
   tileset = "Full Hyrule",
   music = "02_overworld",
 }
 
-custom_entity{
-  layer = -2,
-  x = 8,
-  y = 13,
-  width = 512,
-  height = 352,
-  direction = 0,
-  sprite = "maps/overworld",
-}
-
 tile{
   layer = -1,
-  x = 64,
+  x = -16,
   y = 0,
-  width = 448,
+  width = 544,
   height = 16,
   pattern = "1577",
 }
 
 tile{
   layer = -1,
-  x = 72,
+  x = -24,
   y = 16,
-  width = 448,
+  width = 560,
   height = 16,
   pattern = "1577",
 }
 
 tile{
   layer = -1,
-  x = 64,
+  x = -16,
   y = 32,
-  width = 448,
+  width = 544,
   height = 16,
   pattern = "1577",
 }
 
 tile{
   layer = -1,
-  x = 72,
+  x = -24,
   y = 48,
-  width = 448,
+  width = 560,
   height = 16,
   pattern = "1577",
 }
@@ -2928,12 +2918,48 @@ tile{
   pattern = "728",
 }
 
+tile{
+  layer = 0,
+  x = 440,
+  y = 72,
+  width = 16,
+  height = 8,
+  pattern = "1895",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "1896",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 56,
+  width = 8,
+  height = 24,
+  pattern = "1894",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 56,
+  width = 8,
+  height = 24,
+  pattern = "1893",
+}
+
 enemy{
   name = "auto_enemy",
   layer = 0,
-  x = 456,
-  y = 109,
-  direction = 0,
+  x = 360,
+  y = 237,
+  direction = 2,
   breed = "outside/lynel",
   treasure_name = "random_mountains",
 }
@@ -3093,5 +3119,70 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/map_01",
   destination = "_side",
+}
+
+destination{
+  name = "from_money_make",
+  layer = 0,
+  x = 160,
+  y = 205,
+  direction = 3,
+}
+
+destination{
+  name = "from_door_repair",
+  layer = 0,
+  x = 448,
+  y = 93,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 440,
+  y = 56,
+  width = 16,
+  height = 16,
+  destination_map = "out/map_01",
+}
+
+custom_entity{
+  name = "rockstack_1_background",
+  layer = 0,
+  x = 440,
+  y = 61,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/Rockstacks/rockstack_bg2",
+  model = "stone_pile",
+}
+
+custom_entity{
+  name = "rockstack_1_1",
+  layer = 0,
+  x = 440,
+  y = 61,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/Rockstacks/rockstack_light01",
+  model = "stone_pile",
+}
+
+separator{
+  layer = 0,
+  x = 248,
+  y = 0,
+  width = 16,
+  height = 352,
+}
+
+separator{
+  layer = 0,
+  x = 0,
+  y = 168,
+  width = 512,
+  height = 16,
 }
 

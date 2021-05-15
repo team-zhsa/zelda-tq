@@ -74,7 +74,7 @@ function treasure_manager:appear_chest(map, chest, sound)
   local game = map:get_game()
   chest:set_enabled(true)
   if sound ~= nil and sound ~= false then
-    sol.audio.play_sound("secret_1")
+    sol.audio.play_sound("secret")
   end
       
 end
@@ -91,7 +91,7 @@ function treasure_manager:appear_pickable(map, pickable, sound)
         pickable_entity:set_enabled(true)
         pickable_entity:fall_from_ceiling(192, "hero/cliff_jump", function()
           if sound ~= nil and sound ~= false then
-            audio_manager:play_sound("misc/secret1")
+            sol.audio.play_sound("secret")
           end
         end)
       end)

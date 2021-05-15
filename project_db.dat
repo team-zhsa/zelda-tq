@@ -14,6 +14,7 @@ map{ id = "houses/out/sanctuary/1f", description = "Sanctuary (1st Floor)" }
 map{ id = "inside/castle/1f", description = "Castle (1st Floor)" }
 map{ id = "inside/castle/2f", description = "Castle (2nd Floor)" }
 map{ id = "inside/castle/rooms", description = "Castle (Bedrooms)" }
+map{ id = "inside/caves/door_repair_caves/rito_village", description = "Rito Village" }
 map{ id = "inside/caves/goron_1f", description = "Goron City (1st Floor)" }
 map{ id = "inside/caves/goron_b1", description = "Goron City (Basement 1)" }
 map{ id = "inside/caves/goron_game", description = "Goron mini-game" }
@@ -21,10 +22,10 @@ map{ id = "inside/caves/maze_1f", description = "Maze Cave (1st Floor)" }
 map{ id = "inside/caves/money_caves/island_cave", description = "Island Cave" }
 map{ id = "inside/caves/mountains_1f", description = "Mountains Caves (1st Floor)" }
 map{ id = "inside/caves/mountains_2f", description = "Mountains Caves (2nd Floor)" }
+map{ id = "inside/caves/other_caves/16_forest_cave", description = "Forest Cave" }
 map{ id = "inside/caves/other_caves/lost_woods_hint", description = "Gerudo Fairy Cave 1" }
 map{ id = "inside/caves/pop_cave", description = "Prince of Persia Cave" }
 map{ id = "inside/caves/ruins_1f", description = "Ruins Cave" }
-map{ id = "inside/caves/rupee_caves/rito_village", description = "Rito Village" }
 map{ id = "inside/caves/shop_caves/grave_cave", description = "Grave Cave" }
 map{ id = "inside/caves/shop_caves/hylia_to_kakarico", description = "Hylia to Kakarico Cave" }
 map{ id = "inside/caves/to_fire_temple", description = "Cave to Fire Temple" }
@@ -57,11 +58,14 @@ map{ id = "misc/shop", description = "Shop" }
 map{ id = "misc/test_arena", description = "Testing Arena" }
 map{ id = "misc/test_ground", description = "Testing Ground" }
 map{ id = "out/a1", description = "A1 (West Hyrule)" }
-map{ id = "out/a3", description = "A3 (Kakariko Village)" }
 map{ id = "out/map_00", description = "00 NW Mountains" }
 map{ id = "out/map_01", description = "01 NW Mountains" }
 map{ id = "out/map_02", description = "02 N Mountains" }
 map{ id = "out/map_03", description = "03 N Mountains" }
+map{ id = "out/map_09", description = "09 NE Lake" }
+map{ id = "out/map_10", description = "10 Desert" }
+map{ id = "out/map_16", description = "16 Forest" }
+map{ id = "out/map_23", description = "23 S Cliffs" }
 map{ id = "out/map_26", description = "26 Woods of Maze" }
 map{ id = "sanctuaries/shibo_nayru/1f", description = "Shibo'Nayru Sanctuary" }
 map{ id = "trailer/zora", description = "Zora" }
@@ -203,6 +207,7 @@ sprite{ id = "enemies/boss/stone_hinox/stone_hinox_boulder", description = "Ston
 sprite{ id = "enemies/boss/tentacle_boss", description = "Tentacle Boss" }
 sprite{ id = "enemies/boss/turtle_rock", description = "Turtle rock" }
 sprite{ id = "enemies/boss/turtle_rock/neck", description = "Turtle rock neck" }
+sprite{ id = "enemies/dungeons/arm_mimic", description = "Arm Mimic" }
 sprite{ id = "enemies/dungeons/arrow_target", description = "Arrow Target" }
 sprite{ id = "enemies/dungeons/bari_blue", description = "Blue Bari" }
 sprite{ id = "enemies/dungeons/bari_mini", description = "Mini Bari" }
@@ -218,6 +223,8 @@ sprite{ id = "enemies/dungeons/bubble_grey", description = "Grey Bubble" }
 sprite{ id = "enemies/dungeons/bubble_red", description = "Red Bubble" }
 sprite{ id = "enemies/dungeons/bubble_white", description = "White Bubble" }
 sprite{ id = "enemies/dungeons/bubble_yellow", description = "Yellow Bubble" }
+sprite{ id = "enemies/dungeons/cannonball", description = "Cannonball" }
+sprite{ id = "enemies/dungeons/cannonball_big", description = "Big Cannonball" }
 sprite{ id = "enemies/dungeons/chain_and_ball", description = "Chain and Ball" }
 sprite{ id = "enemies/dungeons/death_ball", description = "Death Ball" }
 sprite{ id = "enemies/dungeons/dodongo", description = "Dodongo" }
@@ -225,9 +232,15 @@ sprite{ id = "enemies/dungeons/evil_tile1", description = "Evil Tile 1" }
 sprite{ id = "enemies/dungeons/evil_tile2", description = "Evil Tile 2" }
 sprite{ id = "enemies/dungeons/evil_tile3", description = "Evil Tile 3" }
 sprite{ id = "enemies/dungeons/evil_tile4", description = "Evil Tile 4" }
+sprite{ id = "enemies/dungeons/eyegore_statue", description = "Eyegore Statue" }
+sprite{ id = "enemies/dungeons/face_lamp", description = "Face lamp" }
+sprite{ id = "enemies/dungeons/fireball", description = "Circular moving fireball" }
+sprite{ id = "enemies/dungeons/fireball_animated", description = "Animated fireball" }
 sprite{ id = "enemies/dungeons/gel", description = "Gel" }
 sprite{ id = "enemies/dungeons/gibdo", description = "Gibdo" }
 sprite{ id = "enemies/dungeons/gohma", description = "Gohma" }
+sprite{ id = "enemies/dungeons/goriya_green", description = "Green Goriya" }
+sprite{ id = "enemies/dungeons/goriya_red", description = "Red Goriya" }
 sprite{ id = "enemies/dungeons/hardhat_beetle_blue", description = "Blue Hardhat Beetle" }
 sprite{ id = "enemies/dungeons/hardhat_beetle_red", description = "Red Hardhat Beetle" }
 sprite{ id = "enemies/dungeons/helmasaur_blue", description = "Blue Helmasaur" }
@@ -250,6 +263,9 @@ sprite{ id = "enemies/dungeons/lizalfos_spear", description = "Lizalfos Spear" }
 sprite{ id = "enemies/dungeons/lizalfos_sword", description = "Lizalfos Sword" }
 sprite{ id = "enemies/dungeons/lizalfos_yellow", description = "Yellow Lizalfos" }
 sprite{ id = "enemies/dungeons/maskass", description = "Maskass" }
+sprite{ id = "enemies/dungeons/mini_moldorm", description = "Mini moldorm" }
+sprite{ id = "enemies/dungeons/mini_moldorm/body", description = "Mini moldorm body" }
+sprite{ id = "enemies/dungeons/mini_moldorm/tail", description = "Mini moldorm tail" }
 sprite{ id = "enemies/dungeons/pengator", description = "Pengator" }
 sprite{ id = "enemies/dungeons/pike_auto", description = "Pike (Auto)" }
 sprite{ id = "enemies/dungeons/pike_detect", description = "Pike (Detect)" }
@@ -259,7 +275,9 @@ sprite{ id = "enemies/dungeons/poe_big", description = "Big Poe" }
 sprite{ id = "enemies/dungeons/pols_voice", description = "Pols Voice" }
 sprite{ id = "enemies/dungeons/rat", description = "Rat" }
 sprite{ id = "enemies/dungeons/red_duck_soldier_sword", description = "enemies/dungeons/red_duck_soldier_sword" }
+sprite{ id = "enemies/dungeons/redead", description = "ReDead" }
 sprite{ id = "enemies/dungeons/rope", description = "Rope" }
+sprite{ id = "enemies/dungeons/spiked_beetle", description = "Spiked Beetle" }
 sprite{ id = "enemies/dungeons/stalfos_blue", description = "Blue Stalfos" }
 sprite{ id = "enemies/dungeons/stalfos_grey", description = "Grey Stalfos" }
 sprite{ id = "enemies/dungeons/stalfos_red", description = "Red Stalfos" }
@@ -465,7 +483,16 @@ sprite{ id = "entities/Graves/gravestone01", description = "Grave 01" }
 sprite{ id = "entities/Ice/icecube_lg-wide", description = "entities/Ice/icecube_lg-wide" }
 sprite{ id = "entities/Ice/iceround_lg", description = "entities/Ice/iceround_lg" }
 sprite{ id = "entities/Rockstacks/rockstack_bg1", description = "entities/Rockstacks/rockstack_bg1" }
+sprite{ id = "entities/Rockstacks/rockstack_bg2", description = "Rockstack Background 02" }
+sprite{ id = "entities/Rockstacks/rockstack_bg3", description = "Rockstack Background 03" }
+sprite{ id = "entities/Rockstacks/rockstack_bg4", description = "Rockstack Background 04" }
+sprite{ id = "entities/Rockstacks/rockstack_bg5", description = "Rockstack Background 05" }
+sprite{ id = "entities/Rockstacks/rockstack_bg6", description = "Rockstack Background 06" }
+sprite{ id = "entities/Rockstacks/rockstack_bg7", description = "Rockstack Background 07" }
 sprite{ id = "entities/Rockstacks/rockstack_dark01", description = "entities/Rockstacks/rockstack_dark01" }
+sprite{ id = "entities/Rockstacks/rockstack_dark02", description = "Rockstack Dark World 02" }
+sprite{ id = "entities/Rockstacks/rockstack_dark03", description = "Rockstack Dark World 03" }
+sprite{ id = "entities/Rockstacks/rockstack_dark04", description = "Rockstack Dark World 04" }
 sprite{ id = "entities/Rockstacks/rockstack_light01", description = "entities/Rockstacks/rockstack_light01" }
 sprite{ id = "entities/Rockstacks/rockstack_light02", description = "entities/Rockstacks/rockstack_light02" }
 sprite{ id = "entities/Rockstacks/rockstack_light03", description = "entities/Rockstacks/rockstack_light03" }
@@ -957,6 +984,7 @@ music{ id = "01_title", description = "01 Title Screen" }
 music{ id = "02_overworld", description = "02 Overworld" }
 music{ id = "03_dungeons", description = "03 Dungeons" }
 music{ id = "04_game_over", description = "04 Game Over" }
+music{ id = "05_death_mountain", description = "05 Death Mountain" }
 music{ id = "ending", description = "Crédits" }
 music{ id = "final-labyrinth", description = "Montagne de la mort" }
 music{ id = "labyrinth", description = "Donjon (Clavecin et orgue)" }
@@ -979,6 +1007,7 @@ sound{ id = "bounce", description = "Bounce" }
 sound{ id = "bow", description = "Bow" }
 sound{ id = "cane", description = "Cane" }
 sound{ id = "cannonball", description = "Cannonball" }
+sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "Chest Open" }
 sound{ id = "common/b_notebook_notification", description = "common/b_notebook_notification" }
 sound{ id = "common/bars_dungeon", description = "Dungeon Bars" }
@@ -990,6 +1019,7 @@ sound{ id = "common/chest_minor_item", description = "common/chest_minor_item" }
 sound{ id = "common/chest_opening", description = "common/chest_opening" }
 sound{ id = "common/dialog/message_end", description = "Message end" }
 sound{ id = "common/dialog/message_letter", description = "Message letter" }
+sound{ id = "common/get_piece_of_heart", description = "Get piece of heart" }
 sound{ id = "common/get_small_item0", description = "common/get_small_item0" }
 sound{ id = "common/get_small_item1", description = "common/get_small_item1" }
 sound{ id = "common/gong", description = "common/gong" }
@@ -1075,6 +1105,7 @@ sound{ id = "poe_soul", description = "poe_soul" }
 sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
 sound{ id = "scene/title/solarus_logo", description = "Solarus Logo" }
+sound{ id = "secret", description = "secret" }
 sound{ id = "shield", description = "Shield" }
 sound{ id = "signal", description = "signal" }
 sound{ id = "spark", description = "spark" }
@@ -1252,6 +1283,7 @@ enemy{ id = "boss/stalfos_yellow", description = "Yellow Stalfos" }
 enemy{ id = "boss/stone_hinox", description = "Stone hinox" }
 enemy{ id = "boss/tentacle_boss", description = "Tentacle Boss" }
 enemy{ id = "boss/turtle_rock", description = "Turtle Rock" }
+enemy{ id = "dungeons/arm_mimic", description = "Goriya" }
 enemy{ id = "dungeons/arrow_target", description = "Arrow Target" }
 enemy{ id = "dungeons/bari_blue", description = "Blue Bari" }
 enemy{ id = "dungeons/bari_mini", description = "Mini Bari" }
@@ -1264,14 +1296,22 @@ enemy{ id = "dungeons/bubble_grey", description = "Grey bubble" }
 enemy{ id = "dungeons/bubble_red", description = "Red Bubble" }
 enemy{ id = "dungeons/bubble_white", description = "White Bubble" }
 enemy{ id = "dungeons/bubble_yellow", description = "Yellow Bubble" }
+enemy{ id = "dungeons/cannonball", description = "Cannonball" }
 enemy{ id = "dungeons/chain_and_ball", description = "Chain and Ball" }
 enemy{ id = "dungeons/death_ball", description = "Death Ball" }
 enemy{ id = "dungeons/dodongo", description = "Dodongo" }
 enemy{ id = "dungeons/evil_tile", description = "Evil Tile" }
+enemy{ id = "dungeons/eyegore_statue", description = "Eyegore statue" }
+enemy{ id = "dungeons/face_lamp", description = "Face lamp" }
+enemy{ id = "dungeons/fireball", description = "Circular moving fireball" }
+enemy{ id = "dungeons/fireball_animated", description = "Animated fireball" }
+enemy{ id = "dungeons/firebar", description = "Fire bar" }
 enemy{ id = "dungeons/flying_tile", description = "Flying tile" }
 enemy{ id = "dungeons/gel", description = "Gel" }
 enemy{ id = "dungeons/gibdo", description = "Gibdo" }
 enemy{ id = "dungeons/gohma", description = "Gohma" }
+enemy{ id = "dungeons/goriya_green", description = "Green Goriya" }
+enemy{ id = "dungeons/goriya_red", description = "Red Goriya" }
 enemy{ id = "dungeons/hardhat_beetle_blue", description = "Blue Hardhat Beetle" }
 enemy{ id = "dungeons/hardhat_beetle_red", description = "Red Hardhat Beetle" }
 enemy{ id = "dungeons/helmaroc_rex", description = "Helmaroc Rex" }
@@ -1292,6 +1332,7 @@ enemy{ id = "dungeons/lizalfos_blue", description = "Blue Lizalfos" }
 enemy{ id = "dungeons/lizalfos_red", description = "Red Lizalfos" }
 enemy{ id = "dungeons/lizalfos_yellow", description = "Yellow Lizalfos" }
 enemy{ id = "dungeons/maskass", description = "Maskass" }
+enemy{ id = "dungeons/mini_moldorm", description = "Mini moldorm" }
 enemy{ id = "dungeons/pengator", description = "Pengator" }
 enemy{ id = "dungeons/pike_auto", description = "Pike (Auto)" }
 enemy{ id = "dungeons/pike_detect", description = "Pike (Detect)" }
@@ -1300,7 +1341,9 @@ enemy{ id = "dungeons/poe", description = "Poe" }
 enemy{ id = "dungeons/poe_big", description = "Big Poe" }
 enemy{ id = "dungeons/pols_voice", description = "Pols Voice" }
 enemy{ id = "dungeons/rat", description = "Rat" }
+enemy{ id = "dungeons/redead", description = "ReDead" }
 enemy{ id = "dungeons/rope", description = "Rope" }
+enemy{ id = "dungeons/spiked_beetle", description = "Spiked Beetle" }
 enemy{ id = "dungeons/stalfos_blue", description = "Blue Stalfos" }
 enemy{ id = "dungeons/stalfos_grey", description = "Grey Stalfos" }
 enemy{ id = "dungeons/stalfos_head", description = "Stalfos Head" }
@@ -1443,6 +1486,7 @@ entity{ id = "spike_sideview", description = "Sideview spike" }
 entity{ id = "statue", description = "Statue" }
 entity{ id = "statue_elephant", description = "Statue elephant" }
 entity{ id = "statue_pig", description = "Statue pig" }
+entity{ id = "stone_pile", description = "Stone pile" }
 entity{ id = "torch", description = "Torch" }
 entity{ id = "unstable_floor", description = "Unstable Floor" }
 entity{ id = "vacuum_cleaner", description = "Vacuum cleaner" }
@@ -1480,6 +1524,7 @@ shader{ id = "lcd", description = "LCD filter" }
 shader{ id = "make_shadow1d", description = "make_shadow1d" }
 shader{ id = "median_blur", description = "median_blur" }
 shader{ id = "mode_7", description = "Mode 7" }
+shader{ id = "nes", description = "NES" }
 shader{ id = "noise_dither", description = "noise_dither" }
 shader{ id = "ntsc2pal", description = "ntsc2pal" }
 shader{ id = "pal2ntsc", description = "pal2ntsc" }
@@ -1631,8 +1676,8 @@ file{ path = "maps/inside/houses/kakariko/south_shop.lua", author = "Lucifer", }
 file{ path = "maps/inside/sewers/castle_b2.dat", author = "Lucifer", }
 file{ path = "maps/inside/sewers/castle_b2.lua", author = "Lucifer", }
 file{ path = "maps/out/a1.dat", author = "Lucifer", }
-file{ path = "maps/out/a3.dat", author = "Nintendo, Lucifer", }
 file{ path = "maps/out/map_03.dat", author = "Lucifer", }
+file{ path = "maps/out/map_09.dat", author = "Nintendo, Lucifer", }
 file{ path = "maps/sanctuaries/shibo_nayru/1f.dat", author = "Linkff", }
 file{ path = "maps/sanctuaries/shibo_nayru/1f.lua", author = "Linkff", }
 file{ path = "scripts/audio_manager.lua", license = "GPL v3" }
@@ -1704,6 +1749,8 @@ file{ path = "shaders/power_effect.dat", author = "PhoenixII54", }
 file{ path = "shaders/radial_fade_out.dat", author = "PhoenixII54", }
 file{ path = "shaders/radial_fade_out.frag.glsl", author = "PhoenixII54", }
 file{ path = "shaders/starman.dat", author = "PhoenixII54", }
+file{ path = "sounds/chest_appears.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/heart_container.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/timer.ogg", author = "Franck Jousseaume", license = "CC BY-SA 4.0" }
 file{ path = "sounds/timer_hurry.ogg", author = "Franck Jousseaume", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/boss/ballchain_soldier.png", license = "Proprietary, Fair use" }

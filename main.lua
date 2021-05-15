@@ -75,6 +75,11 @@ function sol.main:on_key_pressed(key, modifiers)
   return handled
 end
 
+	local ceiling_drop_manager = require("scripts/maps/ceiling_drop_manager")
+  for _, entity_type in pairs({"hero", "pickable", "block"}) do
+    ceiling_drop_manager:create(entity_type)
+  end
+
 -- Starts a game.
 function sol.main:start_savegame(game)
 
