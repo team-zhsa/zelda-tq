@@ -2961,7 +2961,7 @@ enemy{
   y = 237,
   direction = 2,
   breed = "outside/lynel",
-  treasure_name = "random_mountains",
+  treasure_name = "random",
 }
 
 destructible{
@@ -3075,21 +3075,21 @@ destructible{
 enemy{
   name = "auto_enemy_2",
   layer = 0,
-  x = 216,
+  x = 192,
   y = 101,
-  direction = 0,
+  direction = 2,
   breed = "outside/lynel",
-  treasure_name = "random_mountains",
+  treasure_name = "random",
 }
 
 enemy{
   name = "auto_enemy_6",
   layer = 0,
-  x = 248,
-  y = 285,
+  x = 160,
+  y = 293,
   direction = 0,
   breed = "outside/lynel",
-  treasure_name = "random_mountains",
+  treasure_name = "random",
 }
 
 enemy{
@@ -3107,7 +3107,8 @@ enemy{
   x = 216,
   y = 229,
   direction = 0,
-  breed = "outside/peahat",
+  breed = "outside/octorok_red",
+  treasure_name = "random",
 }
 
 teletransporter{
@@ -3184,5 +3185,16 @@ separator{
   y = 168,
   width = 512,
   height = 16,
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 352,
+  width = 512,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/map_06",
+  destination = "_side",
 }
 

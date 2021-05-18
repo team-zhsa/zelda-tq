@@ -10,17 +10,6 @@ properties{
   music = "02_overworld",
 }
 
-custom_entity{
-  layer = -2,
-  x = -248,
-  y = 13,
-  width = 1280,
-  height = 1408,
-  direction = 0,
-  sprite = "maps/overworld",
-  tiled = true,
-}
-
 tile{
   layer = -1,
   x = 0,

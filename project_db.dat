@@ -62,6 +62,7 @@ map{ id = "out/map_00", description = "00 NW Mountains" }
 map{ id = "out/map_01", description = "01 NW Mountains" }
 map{ id = "out/map_02", description = "02 N Mountains" }
 map{ id = "out/map_03", description = "03 N Mountains" }
+map{ id = "out/map_06", description = "06 Cemetery" }
 map{ id = "out/map_09", description = "09 NE Lake" }
 map{ id = "out/map_10", description = "10 Desert" }
 map{ id = "out/map_16", description = "16 Forest" }
